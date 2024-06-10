@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botões</title>
+    <link href="../css/styles.css" rel="stylesheet">
+<body>
+    <header>
+        <div class="container">
+            <h1>Parte 3 trabalho desenvolvimento web</h1>
+            <nav>
+                <ul>
+                    <li><a href="lista.html" class="active">LISTA</a></li>
+                    <li><a href="api.html">API</a></li>
+                    <li><a href="div.html">BOTÕES</a></li>
+                    <li><a href="../index.html">EXPLICAÇÃO</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id = "botao"> </section>
+        <a href="#" id="voltar" onclick="voltarPagina()">Voltar</a>
+        <div class="button-container">
+            <button onclick="showDiv(1)">Botão 1</button>
+            <button onclick="showDiv(2)">Botão 2</button>
+            <button onclick="showDiv(3)">Botão 3</button>
+        </div>
+    </main>
+        <div id="div1" class="hidden">Div 1</div>
+        <div id="div2" class="hidden">Div 2</div>
+        <div id="div3" class="hidden">Div 3</div>
+    <script src="../javascript/div.js"></script>
+</body>
+</html>

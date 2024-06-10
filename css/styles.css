@@ -1,0 +1,159 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #00aeff;
+}
+th, td {
+    border: 1px solid #ffffff;
+    padding: 8px;
+}
+th {
+    background-color: #ffffff;
+}
+button {
+    padding: 5px 10px;
+    background-color: #00aeff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #da0d0d;
+}
+
+html{
+    background-color: black;
+}
+
+h1{
+    color: #ddd;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+
+header h1 {
+    text-align: center;
+    margin: 0;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem 6rem;
+    margin-right: 20px;
+    background-color: rgb(63, 63, 63);
+    padding: 10px;
+    transition: all 0.3s ease; 
+}
+
+nav ul li:hover {
+    background-color: rgb(85, 85, 85); 
+    transform: scale(1.1); 
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a.active {
+    font-weight: bold;
+}
+
+div{
+    color: #ffffff;
+}
+
+.button-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+button {
+    background-color: #1e90ff; 
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #ff0000; 
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+    text-align: center;
+}
+
+.button-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 10px;
+    width: 80%;
+    max-width: 600px;
+    background-color: black; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+
+}
+#voltar {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0e0e0f;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    margin: 10px;
+}
+#voltar:hover {
+    background-color:#1c86ee;
+}
+
+P{
+    color: #fff;
+    text-align: center;
+}
+
+h2{
+    color: #fff;
+    text-align: center;
+}
+
+ol{
+    color: #fff;
+    text-align: center;
+}
+
